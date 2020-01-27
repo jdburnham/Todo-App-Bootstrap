@@ -1,6 +1,5 @@
 .container{
     min-height: 100vh;
-    background: red;
 }
 
 .list-group-item{
@@ -14,4 +13,8 @@
     background: green;
     border: 1px solid green;
 }
+
+.pending li.active{
+    background: red;
+    border: 1px solid red;
 
