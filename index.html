@@ -13,9 +13,9 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div class="container">
+        <div class="container d-flex flex-column justify-content-center aligng-items-center">
             <div class="header">
-                <h1>JB Todo App with Bootstrap</h1>
+                <h1 class="text-center">JB Todo App with Bootstrap</h1>
                 <div class="form">
                     <div class="input-group mb-3">
                         <input 
@@ -31,25 +31,21 @@
                     </div>
                 </div>
             </div>
-            <div class="todos">
-                <div class="pending">
+            <div class="todos pt-4">
+                <div class="pending mt-4">
                     <h3>Pending:</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item active">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
+                    <ul id="pendingList" class="list-group text-center">
+                        <li class="list-group-item">Item 1</li>
+                        <li class="list-group-item">Item 2</li>
+
                       </ul>
                 </div>
-                <div class="completed">
+                <div class="completed mt-4">
                     <h3>Completed:</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item active">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
+                    <ul id="completedList" class="list-group text-center">
+                        <li class="list-group-item">Item 3</li>
+                        <li class="list-group-item">Item 4</li>
+
                       </ul>
                 </div>
             </div>
